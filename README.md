@@ -6,7 +6,7 @@ Requirements:
 - cudnn=8.1
 - tensorflow-gpu==2.5
 - numpy==1.23.4
-Datasets:
+- Datasets:
 - CASIA-B [url] (http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)
 - Outdoor-Gait [url] (https://www.sciencedirect.com/science/article/pii/S0031320319302912)
 
