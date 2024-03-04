@@ -12,15 +12,15 @@ Datasets:
 
 Train:
 - All training and test codes only for Mobilenet are presented in this repository. To perform the same training on other networks, namely VGG-16, Resnet-50, EfficientNet-B0, and ConvNext-base update the following two lines in training .py files of code for the relevant network.
-  from tensorflow.keras.applications import MobileNet
-  base_model = MobileNet(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
+  -from tensorflow.keras.applications import MobileNet
+  -base_model = MobileNet(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
 - For example:
-  from tensorflow.keras.applications import EfficientNetB0
-  base_model = EfficientNetB0(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
+  -from tensorflow.keras.applications import EfficientNetB0
+  -base_model = EfficientNetB0(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
 - Parameter settings for all networks are as follows:
-  SGD optimizer
-  learning rate of 0.0001
-  momentum of 0.9
+  -SGD optimizer
+  -learning rate of 0.0001
+  -momentum of 0.9
 - The optimum epoch numbers for all networks on two different Datasets are as follows:
 - CASIA-B
   VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
