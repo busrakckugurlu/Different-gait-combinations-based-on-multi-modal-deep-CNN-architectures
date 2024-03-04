@@ -15,25 +15,29 @@ Train:
 - from tensorflow.keras.applications import MobileNet
 - base_model = MobileNet(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
 
-- For example:
+For example:
 - from tensorflow.keras.applications import EfficientNetB0
 - base_model = EfficientNetB0(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
 
-- Parameter settings for all networks are as follows:
-  -SGD optimizer
-  -learning rate of 0.0001
-  -momentum of 0.9
-- The optimum epoch numbers for all networks on two different Datasets are as follows:
-- CASIA-B
-  VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+Parameter settings for all networks are as follows:
+- SGD optimizer
+- learning rate of 0.0001
+- momentum of 0.9
+  
+The optimum epoch numbers for all networks on two different Datasets are as follows:
+- CASIA-B:
+-   VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   ResNet50- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   MobileNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   EfficientNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   ConvNext- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
-- Outdoor-Gait
-  VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+
+
+- Outdoor-Gait:
+-   VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   ResNet50- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   MobileNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   EfficientNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
   ConvNext- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+
 
