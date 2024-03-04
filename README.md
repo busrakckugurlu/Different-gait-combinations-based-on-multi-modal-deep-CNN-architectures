@@ -1,7 +1,7 @@
 # Different-gait-combinations-based-on-multi-modal-deep-CNN-architectures
 This repository contains the original codes of the article titled "Different gait combinations based on multi-modal deep CNN architectures".
 Requirements:
-- PY 3.9
+- py 3.9
 - cudatoolkit=11.2
 - cudnn=8.1
 - tensorflow-gpu==2.5
