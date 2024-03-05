@@ -2,7 +2,7 @@
 ## Description:
 This repository contains the original codes of the article titled "Different gait combinations based on multi-modal deep CNN architectures".
 
-![Project Image](project-image-url)
+![Project Image](https://github.com/busrakckugurlu/Different-gait-combinations-based-on-multi-modal-deep-CNN-architectures/blob/main/images/GEI_HConL.PNG)
 ## Requirements:
 - py 3.9
 - cudatoolkit=11.2
