@@ -24,34 +24,29 @@ To:
 > from tensorflow.keras.applications import EfficientNetB0
 > 
 > base_model = EfficientNetB0(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape),pooling="avg")
+#### Test:
+- During the testing phase of multi-modal networks, the load_testing_data functions in create_train_test_data.py and load_gallery_probe.py need to be renamed. For example like this, 'load_testing_data_gei' or 'load_testing_data_stack'.
 
-Parameter settings for all networks are as follows:
+#### Info:
+- Parameter settings for all networks are as follows:
 > SGD optimizer,
 > learning rate of 0.0001,
 > momentum of 0.9
   
-The optimum epoch numbers for all networks on two different Datasets are as follows:
-- CASIA-B:
-  > VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+- The optimum epoch numbers for all networks on two different Datasets are as follows:
+  > CASIA-B:
+  >> MobileNet - GEI:50epoch  	HConL:70epoch  	Head:80epoch 	 Leg:70epoch   SH:10epoch 	OF:7epoch
   > 
-  > ResNet50- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+  >> EfficientNet - GEI:100epoch  	HConL:130epoch  	Head:140epoch 	 Leg:130epoch  	 SH:10epoch 	OF:10epoch
   > 
-  > MobileNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
-  > 
-  >EfficientNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
-  > 
-  > ConvNext- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+  >> ConvNext - GEI:12epoch  	HConL:20epoch  	Head:22epoch 	 Leg:22epoch  	 SH:7epoch 	OF:6epoch
 
 
-- Outdoor-Gait:
-  > VGG16- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+  > Outdoor-Gait:
+  >> MobileNet - GEI:15epoch  	HConL:11epoch  	Head:12epoch 	 Leg:12epoch  	 SH:8epoch 	
   > 
-  > ResNet50- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+  >> EfficientNet - GEI:35epoch  	HConL:35epoch  	Head:37epoch 	 Leg:37epoch  	 SH:18epoch 
   > 
-  > MobileNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
-  > 
-  > EfficientNet- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
-  > 
-  > ConvNext- GEI:  	HConL:  	Head: 	 Leg:  	 SH: 	OF:
+  >> ConvNext - GEI:10epoch  	HConL:11epoch  	Head:10epoch 	 Leg:10epoch  	 SH:11epoch 	
 
 ## License
