@@ -11,7 +11,7 @@ import numpy as np
 import tensorflow.compat.v1 as tf
 from tensorflow.python.keras.backend import set_session
 
-from create_train_test_data2 import load_training_data
+from tools.create_train_test_data import load_training_data
 
 x_train, y_train = load_training_data("data/Cropped_Leg")
 
