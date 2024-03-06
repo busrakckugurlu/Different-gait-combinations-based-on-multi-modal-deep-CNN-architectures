@@ -13,7 +13,8 @@ This repository contains the original codes of the article titled "Different gai
 Download the gait datasets: CASIA-B([apply link](http://www.cbsr.ia.ac.cn/english/Gait%20Databases.asp)), Outdoor-Gait ([Baidu Yun](https://pan.baidu.com/s/1oW6u9olOZtQTYOW_8wgLow) with extract code (tjw0) OR [Google Drive](https://drive.google.com/drive/folders/1XRWq40G3Zk03YaELywxuVKNodul4TziG?usp=sharing))
 
 #### Train:
-- All training and test codes only for Mobilenet are presented in this repository. To perform the same training on other networks, namely VGG-16, Resnet-50, EfficientNet-B0, and ConvNext-base update the following two lines in train_X.py files of code for the relevant network.
+- All training and test codes only for Mobilenet are presented in this repository. To perform the same training on other networks, namely VGG-16, Resnet-50, EfficientNet-B0, and ConvNext-base update the following two 
+  lines in 'train_X.py' files of code for the relevant network.
   
 For example:
 > from tensorflow.keras.applications import MobileNet
