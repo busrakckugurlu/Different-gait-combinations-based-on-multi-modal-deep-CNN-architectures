@@ -3,7 +3,7 @@ import os
 from tensorflow.keras.utils import to_categorical
 
 
-def load_testing_data_stack(src_dir):
+def load_testing_data(src_dir):
     
     gallery_images=[]
     gallery_infos=[]
