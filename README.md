@@ -3,6 +3,9 @@
 This repository contains the original codes of the article titled "Different gait combinations based on multi-modal deep CNN architectures".
 
 ![Project Image](https://github.com/busrakckugurlu/Different-gait-combinations-based-on-multi-modal-deep-CNN-architectures/blob/main/images/GEI_HConL.PNG)
+## License
+If you find this repository useful, please cite this paper:
+- Yaprak, B., Gedikli, E. Different gait combinations based on multi-modal deep CNN architectures. Multimed Tools Appl (2024). https://doi.org/10.1007/s11042-024-18859-9
 ## Requirements:
 - py 3.9
 - cudatoolkit=11.2
@@ -50,4 +53,3 @@ To:
   > 
   >> ConvNext - GEI:10epoch  	HConL:11epoch  	Head:10epoch 	 Leg:10epoch  	 SH:11epoch 	
 
-## License
