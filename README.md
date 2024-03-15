@@ -6,6 +6,7 @@ This repository contains the original codes of the article titled "Different gai
 ## License:
 If you find this repository useful, please cite this paper:
 - Yaprak, B., Gedikli, E. Different gait combinations based on multi-modal deep CNN architectures. Multimed Tools Appl (2024). https://doi.org/10.1007/s11042-024-18859-9
+- Yaprak, B., & Gedikli, E. (2024). Different gait combinations based on multi-modal deep CNN architectures. Multimedia Tools and Applications, 1-23.
 ## Requirements:
 - py 3.9
 - cudatoolkit=11.2
